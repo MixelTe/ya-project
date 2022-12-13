@@ -5,8 +5,12 @@
 .title {
 	font-style: normal;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 40px;
 	line-height: 24px;
+}
+.title > * {
+	margin-right: 10px;
+	color: darkmagenta;
 }
 
 .desc {
@@ -14,6 +18,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
+	margin-top: 1em;
 }
 
 .tech {
@@ -21,4 +26,6 @@
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
+	margin-top: 1em;
+	color: blue;
 }

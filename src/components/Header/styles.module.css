@@ -1,14 +1,23 @@
 .root {
 	height: 72px;
-	background: #EBECF0;
+	font-size: 25px;
+	background: purple;
+	color: aquamarine;
 	padding: 20px 88px;
 	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 20px;
 }
 
 .link, .active {
 	margin-right: 40px;
+	color: aquamarine;
+	text-decoration: none;
 }
 
 .active {
-	color: red;
+	text-decoration: underline;
+	color: aquamarine;
 }
