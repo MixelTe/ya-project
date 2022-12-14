@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ya-project/static/css/main.a0b6b21e.css",
-    "main.js": "/ya-project/static/js/main.7d1b3a5f.js",
+    "main.js": "/ya-project/static/js/main.5d3e4992.js",
     "static/media/map.png": "/ya-project/static/media/map.22be78ab3ba7cf5c84f9.png",
     "static/media/Vector1.svg": "/ya-project/static/media/Vector1.a85ca63b5ca4f334d7df29c8d246a026.svg",
     "static/media/Vector.svg": "/ya-project/static/media/Vector.eb8e7e5ca0124ddec9d8a3f4097b6f58.svg",
     "index.html": "/ya-project/index.html",
     "main.a0b6b21e.css.map": "/ya-project/static/css/main.a0b6b21e.css.map",
-    "main.7d1b3a5f.js.map": "/ya-project/static/js/main.7d1b3a5f.js.map"
+    "main.5d3e4992.js.map": "/ya-project/static/js/main.5d3e4992.js.map"
   },
   "entrypoints": [
     "static/css/main.a0b6b21e.css",
-    "static/js/main.7d1b3a5f.js"
+    "static/js/main.5d3e4992.js"
   ]
 }
