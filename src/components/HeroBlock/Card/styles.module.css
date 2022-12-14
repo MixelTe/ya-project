@@ -12,6 +12,9 @@
 	margin-right: 10px;
 	color: darkmagenta;
 }
+.title a {
+	cursor: none;
+}
 
 .desc {
 	font-style: normal;
