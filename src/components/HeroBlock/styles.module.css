@@ -2,7 +2,6 @@
 	background-color: chartreuse;
 	color: darkmagenta;
 	padding: 1em;
-	margin-top: 2em;
 }
 
 .root h2 {
@@ -13,4 +12,9 @@
 	margin-top: -80px;
 	display: flex;
 	gap: -1em;
+}
+.t {
+	font-size: 60px;
+	color: darkmagenta;
+
 }

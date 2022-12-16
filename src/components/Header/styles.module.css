@@ -6,9 +6,9 @@
 	padding: 20px 88px;
 	box-sizing: border-box;
 	position: fixed;
-	top: 0;
+	top: 20px;
+	left: 60px;
 	width: 100%;
-	margin: 20px;
 }
 
 .link, .active {
@@ -16,6 +16,7 @@
 	color: aquamarine;
 	text-decoration: none;
 	cursor: none;
+	font-size: 25px;
 }
 
 .active {

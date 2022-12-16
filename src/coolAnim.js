@@ -6,6 +6,7 @@ export default function coolAnim(el)
 	window.addEventListener("scroll", e =>
 	{
 		if (!o.current) return;
+		if (o.current.getAttribute("data-da")) return;
 		if (o.current.parentElement.id != "coolAnim")
 		{
 			const el = o.current.cloneNode(true);
@@ -20,6 +21,8 @@ export default function coolAnim(el)
 			el.appendChild(o.current);
 			el2.style.margin = "0";
 			el2.style.opacity = "0";
+			el2.removeAttribute("data-t");
+			el.removeAttribute("data-t");
 		}
 		o.current.style.margin = "0";
 		o.current.style.position = "absolute";

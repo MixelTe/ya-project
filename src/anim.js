@@ -26,6 +26,8 @@ export default function StartAnim()
 		if (e.target?.getAttribute?.("data-ac"))
 		{
 			c.style.transitionTimingFunction = "cubic-bezier(0.000, 0.450, 0.605, 3.650)";
+			c.style.transition = "width, height, border";
+			c.style.transitionDuration = "250ms";
 			c.style.width = `${20}px`;
 			c.style.height = `${20}px`;
 			c.style.border = `2px solid red`;
@@ -56,6 +58,32 @@ export default function StartAnim()
 		document.body.appendChild(el);
 		setTimeout(() => el.style.transform = `translate(-50%, -50%) scale(0)`, 1);
 		setTimeout(() => document.body.removeChild(el), 1500);
+	});
+	window.addEventListener("click", e =>
+	{
+		const x = e.clientX;
+		const y = e.clientY;
+		c.style.transitionTimingFunction = "cubic-bezier(0.000, 0.450, 0.605, 3.650)";
+		c.style.width = `${10}px`;
+		c.style.height = `${10}px`;
+		c.style.border = `2px solid red`;
+		setTimeout(() =>
+		{
+			if (ac)
+			{
+				c.style.transitionTimingFunction = "cubic-bezier(0.000, 0.450, 0.605, 3.650)";
+				c.style.width = `${20}px`;
+				c.style.height = `${20}px`;
+				c.style.border = `2px solid red`;
+			}
+			else
+			{
+				c.style.width = `${1}px`;
+				c.style.height = `${1}px`;
+				c.style.border = `4px solid red`;
+			}
+		}, 150);
+		burst(x, y);
 	});
 }
 
@@ -93,7 +121,7 @@ function burst(x, y)
 			dy += 0.4;
 			el.style.top = `${Y}px`;
 			el.style.left = `${X}px`;
-			if (w > 500)
+			if (w > 250)
 			{
 				clearInterval(h);
 				document.body.removeChild(el);

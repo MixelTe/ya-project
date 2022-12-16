@@ -1,6 +1,5 @@
 .root {
 	background-color: coral;
-	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 20px;
 	text-align: center;
@@ -9,6 +8,11 @@
 .root h2 {
 	font-size: 40px;
 	color: mediumblue;
+}
+.t {
+	font-size: 40px;
+	color: mediumblue;
+
 }
 
 .root ul {
@@ -26,8 +30,16 @@
 	font-size: 20px;
 	color: brown;
 }
+.d{
+	font-size: 20px;
+	color: brown;
+}
 
 .root h3 {
+	font-size: 30px;
+	color: gold;
+}
+.n {
 	font-size: 30px;
 	color: gold;
 }
