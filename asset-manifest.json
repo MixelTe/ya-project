@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/ya-project/static/css/main.e98f4b5c.css",
-    "main.js": "/ya-project/static/js/main.a143624e.js",
+    "main.css": "/ya-project/static/css/main.a4991cc9.css",
+    "main.js": "/ya-project/static/js/main.ee6d196f.js",
     "static/media/map.png": "/ya-project/static/media/map.22be78ab3ba7cf5c84f9.png",
+    "static/media/avatar.jpg": "/ya-project/static/media/avatar.99df075ad9d1f7aaab5e.jpg",
+    "static/media/Dark_gh-logo.svg": "/ya-project/static/media/Dark_gh-logo.105a909b0f1f13c49047aa4fff40a0c8.svg",
     "static/media/Vector1.svg": "/ya-project/static/media/Vector1.a85ca63b5ca4f334d7df29c8d246a026.svg",
+    "static/media/TG-logo.svg": "/ya-project/static/media/TG-logo.21020733f11a0ec60c9fb1982b5c3950.svg",
     "static/media/Vector.svg": "/ya-project/static/media/Vector.eb8e7e5ca0124ddec9d8a3f4097b6f58.svg",
     "index.html": "/ya-project/index.html",
-    "main.e98f4b5c.css.map": "/ya-project/static/css/main.e98f4b5c.css.map",
-    "main.a143624e.js.map": "/ya-project/static/js/main.a143624e.js.map"
+    "main.a4991cc9.css.map": "/ya-project/static/css/main.a4991cc9.css.map",
+    "main.ee6d196f.js.map": "/ya-project/static/js/main.ee6d196f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e98f4b5c.css",
-    "static/js/main.a143624e.js"
+    "static/css/main.a4991cc9.css",
+    "static/js/main.ee6d196f.js"
   ]
 }
